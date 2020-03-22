@@ -1,0 +1,27 @@
+{
+    "title": "code for dream",
+    "author": "huangjunneng@163.com",
+    "description": "我的github page 官网,欢迎访问 https://huangjunneng.github.io/",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "plugins": [
+        "tbfed-pagefooter",
+        "gitalk"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": { 
+             "copyright":"©code for dream",
+             "modify_label": "文件修订时间：", 
+             "modify_format": "YYYY-MM-DD HH:mm:ss" 
+        },
+        "gitalk": { 
+            "clientID":"a5740dd5f139334f7201",
+            "clientSecret": "01fdd5258b15403a2fc9194f5434d56789ebe161", 
+            "repo": "huangjunneng.github.io", 
+            "owner": "huangjunneng", 
+            "admin": ["huangjunneng"],
+            "distractionFreeMode": true
+       } 
+    }
+
+}

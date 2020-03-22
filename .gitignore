@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# 构建出来的电子书放到githubpage
+_book
