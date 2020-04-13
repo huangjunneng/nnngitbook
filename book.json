@@ -5,15 +5,24 @@
     "language": "zh-hans",
     "gitbook": "3.2.3",
     "plugins": [
-        "tbfed-pagefooter",
-        "gitalk"
+        "expandable-chapters-small",
+        "gitalk",
+        "test001",
+        "favicon-absolute"
     ],
-    "pluginsConfig": {
-        "tbfed-pagefooter": { 
-             "copyright":"©code for dream",
-             "modify_label": "文件修订时间：", 
-             "modify_format": "YYYY-MM-DD HH:mm:ss" 
+    "pluginsConfig": {  
+        "theme-default":{       
+             "showLevel": true 
         },
+        "favicon-absolute": {
+            "favicon": "img/favicon_128.ico",
+            "appleTouchIconPrecomposed152": "img/screen_wps.png"
+        },
+        "test001": { 
+            "name":"code for dream",
+            "email":"huangjunneng@163.com",
+            "time_format":"YYYY-MM-DD"
+       },    
         "gitalk": { 
             "clientID":"a5740dd5f139334f7201",
             "clientSecret": "01fdd5258b15403a2fc9194f5434d56789ebe161", 

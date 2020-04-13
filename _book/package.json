@@ -1,0 +1,24 @@
+{
+  "name": "nnn-gitbook-for-githubpage",
+  "version": "1.0.0",
+  "description": "my gitbook for githubpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangjunneng/nnngitbook.git"
+  },
+  "keywords": [
+    "gitbook",
+    "githubpage",
+    "markdown"
+  ],
+  "author": "huangjunneng@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huangjunneng/nnngitbook/issues"
+  },
+  "homepage": "https://github.com/huangjunneng/nnngitbook#readme"
+}

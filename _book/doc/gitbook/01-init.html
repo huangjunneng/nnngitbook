@@ -1,0 +1,421 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>项目初始化 · code for dream</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="huangjunneng@163.com">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-test001/test.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="02-pulgin.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    
+        <link rel="shortcut icon" href="img/favicon_128.ico" type="image/x-icon">
+    
+    
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/screen_wps.png">
+    
+    
+        
+    
+    
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    我的主页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    gitbook 开发
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.1" data-path="01-init.html">
+            
+                <a href="01-init.html">
+            
+                    
+                        <b>2.1.1.</b>
+                    
+                    项目初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="02-pulgin.html">
+            
+                <a href="02-pulgin.html">
+            
+                    
+                        <b>2.1.2.</b>
+                    
+                    插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="03-ghpage.html">
+            
+                <a href="03-ghpage.html">
+            
+                    
+                        <b>2.1.3.</b>
+                    
+                    发布GitHub pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >项目初始化</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4E00;&#x3001;&#x73AF;&#x5883;&#x51C6;&#x5907;">&#x4E00;&#x3001;&#x73AF;&#x5883;&#x51C6;&#x5907;</h1>
+<h3 id="1-&#x68C0;&#x67E5;&#x6211;&#x7684;&#x5F00;&#x53D1;&#x73AF;&#x5883;">1. &#x68C0;&#x67E5;&#x6211;&#x7684;&#x5F00;&#x53D1;&#x73AF;&#x5883;</h3>
+<pre><code class="lang-js">git --version         <span class="hljs-comment">// git version 2.23.0.windows.1</span>
+node --version        <span class="hljs-comment">// v10.16.3</span>
+npm --version         <span class="hljs-comment">// 6.9.0</span>
+</code></pre>
+<h3 id="2&#x5B89;&#x88C5;-gitbook-cli-&#x811A;&#x624B;&#x67B6;&#x5DE5;&#x5177;">2.&#x5B89;&#x88C5; gitbook-cli &#x811A;&#x624B;&#x67B6;&#x5DE5;&#x5177;</h3>
+<pre><code class="lang-js">npm install -g gitbook-cli
+
+<span class="hljs-comment">//&#x67E5;&#x770B;&#x5B89;&#x88C5;&#x7248;&#x672C;</span>
+ gitbook -V  
+<span class="hljs-comment">// CLI version: 2.3.2</span>
+<span class="hljs-comment">// GitBook version: 3.2.3</span>
+</code></pre>
+<h1 id="&#x4E8C;&#x3001;&#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;">&#x4E8C;&#x3001;&#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;</h1>
+<h3 id="1&#x3001;-&#x521D;&#x59CB;&#x5316;git&#x9879;&#x76EE;">1&#x3001; &#x521D;&#x59CB;&#x5316;git&#x9879;&#x76EE;</h3>
+<pre><code class="lang-js">npm init
+</code></pre>
+<h3 id="2&#x3001;-&#x521D;&#x59CB;&#x5316;gitbook&#x9879;&#x76EE;">2&#x3001; &#x521D;&#x59CB;&#x5316;gitbook&#x9879;&#x76EE;</h3>
+<pre><code class="lang-js">gitbook init
+</code></pre>
+<p>  &#x81EA;&#x52A8;&#x751F;&#x6210;&#x4EE5;&#x4E0B;&#x4E24;&#x4E2A;&#x6587;&#x4EF6;&#xFF1A;</p>
+<ul>
+<li>SUMMARY.md  &#x662F;&#x6807;&#x51C6;&#x5316;&#x7684;&#x6458;&#x8981;&#x6587;&#x4EF6;&#xFF0C;&#x5373;gitbook&#x7535;&#x5B50;&#x4E66;&#x7684;&#x76EE;&#x5F55;&#x6587;&#x4EF6;&#x3002;</li>
+<li>README.md  &#x662F;&#x9ED8;&#x8BA4;&#x7684;&#x7B80;&#x4ECB;&#x6587;&#x4EF6;</li>
+</ul>
+<h3 id="3&#x3001;&#x5728;&#x6839;&#x76EE;&#x5F55;&#x624B;&#x52A8;&#x521B;&#x5EFA;&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x6587;&#x4EF6;&#xFF1A;">3&#x3001;&#x5728;&#x6839;&#x76EE;&#x5F55;&#x624B;&#x52A8;&#x521B;&#x5EFA;&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x6587;&#x4EF6;&#xFF1A;</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>book.json</td>
+<td style="text-align:left">&#x914D;&#x7F6E;&#x6587;&#x4EF6;.</td>
+</tr>
+<tr>
+<td>GLOSSARY.md</td>
+<td style="text-align:left">&#x8BCD;&#x6C47;&#x8868;&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x5168;&#x4E66;&#x7684;&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;&#x89E3;&#x91CA;.</td>
+</tr>
+<tr>
+<td>LANGS.md</td>
+<td style="text-align:left">&#x652F;&#x6301;&#x56FD;&#x9645;&#x5316;&#x7F16;&#x5199;&#x7684;&#x8BED;&#x8A00;&#x6587;&#x4EF6;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4&#x3001;&#x5728;summarymd&#x6587;&#x4EF6;&#x7F16;&#x5199;&#x7535;&#x5B50;&#x4E66;&#x76EE;&#x5F55;&#xFF1A;">4&#x3001;&#x5728;SUMMARY.md&#x6587;&#x4EF6;&#x7F16;&#x5199;&#x7535;&#x5B50;&#x4E66;&#x76EE;&#x5F55;&#xFF1A;</h3>
+<pre><code class="lang-html"># Summary
+
+* [&#x9879;&#x76EE;&#x7B80;&#x4ECB;](README.md)
+-----
+* [&#x7559;&#x8A00;&#x533A;](doc/talk/README.md)
+-----
+* [gitbook &#x5F00;&#x53D1;](doc/gitbook/README.md)
+    * [&#x73AF;&#x5883;&#x51C6;&#x5907;](doc/gitbook/init.md)
+    * [&#x5F00;&#x53D1;&#x8FC7;&#x7A0B;](doc/gitbook/FQA.md)
+    * [FQA](doc/gitbook/FQA.md)
+* [&#x5B66;&#x4E60;&#x7B14;&#x8BB0;](doc/learn/README.md)
+    * [&#x73AF;&#x5883;&#x51C6;&#x5907;](doc/learn/init.md)
+</code></pre>
+<h3 id="5&#x3001;&#x521D;&#x59CB;&#x5316;gitbook&#x76EE;&#x5F55;&#x6587;&#x6863;&#xFF1A;">5&#x3001;&#x521D;&#x59CB;&#x5316;gitbook&#x76EE;&#x5F55;&#x6587;&#x6863;&#xFF1A;</h3>
+<pre><code class="lang-js">gitbook init
+</code></pre>
+<blockquote>
+<p>&#x6BCF;&#x6B21;&#x66F4;&#x65B0;SUMMARY.md&#x6587;&#x4EF6;&#xFF0C;&#x90FD;&#x5FC5;&#x987B;&#x6267;&#x884C;<em>gitbook init</em>&#x3002;
+&#x5BF9;&#x65B0;&#x6DFB;&#x52A0;&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x4F1A;&#x91CD;&#x65B0;&#x751F;&#x6210;.md&#x6587;&#x6863;,&#x5BF9;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x7684;&#x76EE;&#x5F55;&#x5219;&#x4E0D;&#x53D8;&#x3002;</p>
+</blockquote>
+<h3 id="6&#x3001;&#x542F;&#x52A8;gitbook&#x9879;&#x76EE;&#xFF1A;">6&#x3001;&#x542F;&#x52A8;gitbook&#x9879;&#x76EE;&#xFF1A;</h3>
+<pre><code class="lang-js">gitbook serve
+<span class="hljs-comment">//&#x542F;&#x52A8;&#x6210;&#x529F;&#x540E;&#xFF0C;&#x4E00;&#x822C;&#x5728;4000&#x7AEF;&#x53E3;&#x67E5;&#x770B;&#x6548;&#x679C;</span>
+Serving book on http:<span class="hljs-comment">//localhost:4000</span>
+</code></pre>
+<h3 id="6&#x3001;&#x6784;&#x5EFA;gitbook&#x9759;&#x6001;&#x9875;&#x9762;&#xFF1A;">6&#x3001;&#x6784;&#x5EFA;gitbook&#x9759;&#x6001;&#x9875;&#x9762;&#xFF1A;</h3>
+<pre><code class="lang-js">gitbook build
+<span class="hljs-comment">//&#x6784;&#x5EFA;&#x6210;&#x529F;&#x540E;&#x751F;&#x6210; *_book* &#x6587;&#x4EF6;&#x5939;</span>
+</code></pre>
+<div id="test001-container">
+                   <span class="email">huangjunneng@163.com</span>
+                    <span class="name">code for dream</span>
+                    <span class="time">
+ 2020-04-13
+</span>
+                </div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: gitbook 开发">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="02-pulgin.html" class="navigation navigation-next " aria-label="Next page: 插件开发">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"项目初始化","level":"2.1.1","depth":2,"next":{"title":"插件开发","level":"2.1.2","depth":2,"path":"doc/gitbook/02-pulgin.md","ref":"doc/gitbook/02-pulgin.md","articles":[]},"previous":{"title":"gitbook 开发","level":"2.1","depth":1,"path":"doc/gitbook/README.md","ref":"doc/gitbook/README.md","articles":[{"title":"项目初始化","level":"2.1.1","depth":2,"path":"doc/gitbook/01-init.md","ref":"doc/gitbook/01-init.md","articles":[]},{"title":"插件开发","level":"2.1.2","depth":2,"path":"doc/gitbook/02-pulgin.md","ref":"doc/gitbook/02-pulgin.md","articles":[]},{"title":"发布GitHub pages","level":"2.1.3","depth":2,"path":"doc/gitbook/03-ghpage.md","ref":"doc/gitbook/03-ghpage.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["expandable-chapters-small","gitalk","test001","favicon-absolute","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"gitalk":{"clientID":"a5740dd5f139334f7201","clientSecret":"01fdd5258b15403a2fc9194f5434d56789ebe161","repo":"huangjunneng.github.io","owner":"huangjunneng","admin":["huangjunneng"],"distractionFreeMode":true},"favicon-absolute":{"appleTouchIconMore":{},"appleTouchIconPrecomposed152":"img/screen_wps.png","appleTouchIconPrecomposedMore":{},"favicon":"img/favicon_128.ico"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"test001":{"name":"code for dream","email":"huangjunneng@163.com","time_format":"YYYY-MM-DD"}},"theme":"default","author":"huangjunneng@163.com","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"code for dream","language":"zh-hans","gitbook":"3.2.3","description":"我的github page 官网,欢迎访问 https://huangjunneng.github.io/"},"file":{"path":"doc/gitbook/01-init.md","mtime":"2020-04-13T14:38:37.449Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-13T17:02:15.349Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
