@@ -1,0 +1,36 @@
+{
+  "name": "gitbook-plugin-test001",
+  "version": "1.0.0",
+  "description": "gitbook plugin test",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=2.23.0"
+  },
+  "gitbook": {
+    "properties": {
+      "name": {
+        "type": "string",
+        "default": "code for dream",
+        "description": "you name"
+      },
+      "email": {
+        "type": "string",
+        "default": "huangjunneng@163.com",
+        "description": "you email"
+      },
+      "time_format": {
+        "type": "string",
+        "default": "YYYY-MM-DD HH:mm:ss",
+        "description": "tiem format"
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "author": "huangjunneng@163.com",
+  "license": "MIT"
+}
