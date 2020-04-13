@@ -20,7 +20,7 @@ var gitalk = new Gitalk({
 gitalk.render("gitalk-container"); 
 </script>
 
- ![微信赞赏码](../../img/wx_zsm.jpg)
+ ![微信赞赏码](img/wx_zsm.jpg)
 
 
 
